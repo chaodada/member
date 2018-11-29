@@ -1,7 +1,6 @@
-本程序
+#php简单的多用户管理系统
 
-最低php要求5.6
-必须支持Pdo扩展
+需要环境支持pdo Gd库
 
 使用之前先新建数据库
 然后导入 根目录下的 data.sql
@@ -19,11 +18,5 @@ config/config.inc.php
 
 前台功能 用户注册   用户登陆    积分签到   积分消费   签到记录   消费记录   资料修改
 
-本程序采用php面向对象思想开发  代码复用较高
-
 构建 完美分页类  inclode/page.class.php
 构建 验证码类  inclode/vcode.class.php
-数据库操作 采用php自身的 Pdo扩展 进行增删改查 （php5.5之后版本统一不再使用mysql扩展函数  应当用 mysqlli  或者pdo ）
-
-
-
