@@ -1,12 +1,14 @@
 #php简单的多用户管理系统
 
-需要环境支持pdo Gd库
+> 需要环境支持pdo Gd库
 
-使用之前先新建数据库
-然后导入 根目录下的 data.sql
+> 使用之前先新建数据库
+> 
+> 然后导入 根目录下的 data.sql
 
-数据库配置文件
-config/config.inc.php
+> 数据库配置文件
+> 
+> config/config.inc.php
 
 后台登陆地址
 网址/admin.php
